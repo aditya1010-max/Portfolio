@@ -1,0 +1,41 @@
+.AboutMe-container {
+  max-width: 800px;
+  margin: 60px auto; /* centers horizontally with spacing */
+  padding: 20px;
+  text-align: center;
+  line-height: 1.8;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.AboutMe {
+  font-size: 1.2rem;
+  font-weight: 400;
+  white-space: pre-line; /* preserves line breaks in your paragraph */
+}
+
+#aboutMe {
+  margin: 0;
+}
+
+/* Highlight "Aditya Raut" or important words */
+.AboutMe strong {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .AboutMe-container {
+    margin: 40px 20px;
+    padding: 15px;
+  }
+
+  .AboutMe {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
