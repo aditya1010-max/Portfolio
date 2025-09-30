@@ -4,15 +4,15 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;      /* Full viewport height */
-  width: 100%;
+  width: 50%;
   background-color: #f5f5f5; /* Light neutral background */
   color: #1a1a1a;         /* Base text color */
   font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease; /* smooth theme toggle */
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;     /* Prevent horizontal scroll */
 }
+
 
 .app a {
   text-decoration: none;

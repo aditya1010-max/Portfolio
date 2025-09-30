@@ -21,10 +21,12 @@ function App() {
 
   return (
     <div className='App' data-theme={isDark ? 'dark' : 'light'}>
-      <div>
+      
+      <div className='topbar-container2'>
       <TopBar />
       <ThemeToggle handleChange={toggleTheme} isChecked={isDark} />
       </div>
+
       <AboutMe />
       <Project />
       <GhStats />

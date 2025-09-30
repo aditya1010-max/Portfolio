@@ -14,8 +14,9 @@ export const Toggle: React.FC<ToggleProps> = ({ handleChange, isChecked }) => {
         className="toggle"
         onChange={handleChange}
         checked={isChecked}
+        style={{cursor: 'pointer'}}
       />
-      <label htmlFor="check">Change Mode</label>
+      <label htmlFor="check">{isChecked ? "🌙" : "☀️"}</label>
     </div>
   );
 };

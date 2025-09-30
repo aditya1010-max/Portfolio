@@ -3,9 +3,9 @@
   margin: 80px auto;
   padding: 40px 20px;
   text-align: center;
-  background: var(--bg-alt-color, #f5f5f5);
+  background: var(--bg-alt-color);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
   transition: background 0.3s ease, color 0.3s ease;
 }
 

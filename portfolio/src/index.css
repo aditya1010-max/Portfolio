@@ -5,21 +5,31 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.topbar-container2 {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* aligns vertically */
+  gap: 1rem;               /* optional: space between topbar and button */
+}
 
 
 body {
-  background-color: var(--background-color);
+  background: var(--bg-color);
+  /* background-color: #F3F2EC; */
   color: var(--text-color);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 :root {
-  --bg-color: #ffffff;
-  --text-color: #333333;
-  --accent-color: #4cafef;
+  --bg-color: #F5F5F0;
+  --text-color: #5D866C;
+  --accent-color: #C2A68C;
 }
 
 [data-theme="dark"] {
-  --bg-color: #1e1e1e;
-  --text-color: #f5f5f5;
-  --accent-color: #90caf9;
+  --bg-color: #1B3C53;
+  --text-color: #D2C1B6;
+  --accent-color: #456882;
 }

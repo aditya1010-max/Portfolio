@@ -14,7 +14,7 @@
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 16px rgba(233, 24, 24, 0.882);
 }
 
 .project-card h3 {
@@ -36,7 +36,7 @@
   border: none;
   border-radius: 8px;
   background: var(--accent-color);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 0.9rem;
   cursor: pointer;
   transition: background 0.25s ease;
