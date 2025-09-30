@@ -30,7 +30,7 @@ function App() {
 
       <AboutMe />
       <Project />
-      <TechStack arr={["mongoDB", "express", "react", "nodeJS", "typescript", "javascript", "html", "css", "git", "github", "redis"]} />
+      <TechStack arr={["mongoDB", "express", "react", "nodejs", "typescript", "javascript", "html", "css", "git", "github", "redis"]} />
       <GhStats />
       <FollowMe />
       <EmptySpace height={40} />
