@@ -2,7 +2,7 @@
   max-width: 800px;
   margin: 80px auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: left;
   color: var(--text-color);
 }
 
@@ -10,6 +10,14 @@
   font-size: 2rem;
   margin-bottom: 20px;
   color: var(--accent-color);
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  display: flex;
+  border-top: 1px solid #808080; /* Creates a 1px solid black line at the top */
+  width: 100%; /* Spans the full width of its parent */
+  margin: 20px 0; /* Adds space above and below the line */
 }
 
 .project-grid {

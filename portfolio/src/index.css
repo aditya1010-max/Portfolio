@@ -16,7 +16,6 @@
 body {
   background: var(--bg-color);
   /* background-color: #F3F2EC; */
-  color: var(--text-color);
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -26,10 +25,13 @@ body {
   --bg-color: #F5F5F0;
   --text-color: #5D866C;
   --accent-color: #C2A68C;
+  --shadow-color: rgb(198, 225, 110);
+
 }
 
 [data-theme="dark"] {
   --bg-color: #1B3C53;
   --text-color: #D2C1B6;
   --accent-color: #456882;
+  --shadow-color: rgba(233, 24, 24, 0.882)
 }

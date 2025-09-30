@@ -15,7 +15,7 @@ const projects = [
 export default function Projects() {
   return (
     <section className="projects">
-      <h2>My Projects</h2>
+      <h2># Projects <div className="horizontal-line"></div></h2>
       <br />
       <div className="project-grid">
         {projects.map((p, idx) => (

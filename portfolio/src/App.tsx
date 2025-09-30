@@ -7,6 +7,7 @@ import ThemeToggle from './components/toggle-button/ToggleButton';
 import GhStats from './components/Github-Stats/GhStats';
 import FollowMe from './components/FollowMe/FollowMe';
 import EmptySpace from './components/EmptySpace.tsx/EmptySpace';
+import TechStack from './components/TechStack/TechStack';
 
 function App() {
   const [isDark, setIsDark] = useLocalStorage("theme", false);
@@ -29,6 +30,7 @@ function App() {
 
       <AboutMe />
       <Project />
+      <TechStack arr={["mongoDB", "express", "react", "nodeJS", "typescript", "javascript", "html", "css", "tailwindCSS", "git", "github", "figma", "photoshop", "adobeXD"]} />
       <GhStats />
       <FollowMe />
       <EmptySpace height={40} />

@@ -3,7 +3,8 @@ import "./FollowMe.css";
 export default function FollowMe() {
   return (
     <div className="followme">
-      <h1>My Socials</h1>
+      <h1>#Socials <div className="horizontal-line"></div></h1>
+
       <a href="https://github.com/aditya1010-max/">
         <img src="icons8-github-50.png" alt="GitHub" />
       </a>
@@ -11,10 +12,10 @@ export default function FollowMe() {
         <img src="icons8-linkedin-48.png" alt="linkedin" />
       </a>      
       <a href="https://x.com/Raut100x">
-        <img src="" alt="Twitter" />
+        <img src="icons8-twitter-50.png" alt="Twitter" />
       </a>  
       <a href="https://leetcode.com/u/AdiiiTya_1010/">
-        <img src="" alt="leetcode" />
+        <img src="lc2.png" alt="leetcode" style={{height: "45px", width: "45px"}} />
       </a>      
     </div>
   );
