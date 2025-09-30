@@ -15,7 +15,7 @@ export default function TechStack({ arr }: Props) {
                     src={`${tech}.png`}
                     alt={tech}
                     title={tech}
-                    style={{ height: "50px", width: "50px", margin: "10px", boxShadow: "0 4px 8px var(--shadow-color)", borderRadius: "8px" }}
+                    style={{ height: "50px", width: "50px", margin: "10px", borderRadius: "8px", border: "2px solid var(--accent-color)", boxShadow: `0 0 10px var(--shadow-color)` }}
                 />
             ))}
         </div>

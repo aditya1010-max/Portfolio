@@ -1,5 +1,9 @@
 /* App.css - styling for the main .app component */
 
+#App {
+  background-color: var(--bg-color);
+}
+
 .app {
   display: flex;
   flex-direction: column;

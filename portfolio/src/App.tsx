@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className='App' data-theme={isDark ? 'dark' : 'light'}>
+    <div id='App' className='App' data-theme={isDark ? 'dark' : 'light'}>
       
       <div className='topbar-container2'>
       <TopBar />
@@ -30,7 +30,7 @@ function App() {
 
       <AboutMe />
       <Project />
-      <TechStack arr={["mongoDB", "express", "react", "nodeJS", "typescript", "javascript", "html", "css", "tailwindCSS", "git", "github", "figma", "photoshop", "adobeXD"]} />
+      <TechStack arr={["mongoDB", "express", "react", "nodeJS", "typescript", "javascript", "html", "css", "git", "github", "redis"]} />
       <GhStats />
       <FollowMe />
       <EmptySpace height={40} />

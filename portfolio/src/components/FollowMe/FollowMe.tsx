@@ -6,7 +6,7 @@ export default function FollowMe() {
       <h1>#Socials <div className="horizontal-line"></div></h1>
 
       <a href="https://github.com/aditya1010-max/">
-        <img src="icons8-github-50.png" alt="GitHub" />
+        <img src="github.png" alt="GitHub" style={{height: "45px", width: "45px"}}/>
       </a>
       <a href="https://www.linkedin.com/in/aditya-raut-35b1672a5/">
         <img src="icons8-linkedin-48.png" alt="linkedin" />
